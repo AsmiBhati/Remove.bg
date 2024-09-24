@@ -1,0 +1,90 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    font-feature-settings: normal;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(69, 69, 69);
+}
+
+.header {
+    margin-top: 0px;
+    border-bottom: 0.5px solid #ccc;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.05);
+    padding-bottom: 0px;
+    margin: 0 0;
+    height: 125px;
+}
+
+.header img {
+    height: 125px;
+    width: auto;
+}
+
+
+.video-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.video-container {
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.video-container video {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 400px;
+    margin-left: 30px;
+}
+
+
+.form-section {
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#remove-bg-form {
+    background-color: #f2f4f6;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 100px;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+#image-input {
+    margin-bottom: 10px;
+}
+
+.description-section {
+    text-align: left;
+    padding-left: 75px;
+    padding-top: 0px;
+}
+
+.description-section h1 {
+    margin-top: 20px;
+    padding-top: 0px;
+    line-height: 1;
+    padding-left: 0px;
+}
+
+.description-section h3 {
+    padding-top: 30px;
+    line-height: 1;
+}

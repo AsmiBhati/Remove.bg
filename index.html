@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove.bg</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="https://logovectorseek.com/wp-content/uploads/2020/10/remove-bg-logo-vector.png" alt="logo">
+    </header>
+
+    <main class="main">
+        <section class="video-section">
+            <div class="video-container">
+                <video src="/emilia_compressed.mp4" autoplay muted loop></video>
+            </div>
+
+            <div class="form-section">
+                <form id="remove-bg-form" onsubmit="event.preventDefault(); removeBg(document.getElementById('image-input').files[0]);">
+                    <input type="file" id="image-input" accept="image/*">
+                    <br>
+                    <button type="submit">Remove Background</button>
+                    
+                </form>
+                <img id="result-image" src="" alt="Result Image">
+                <a id="download-link" href="" download>Download Result Image</a>
+            </div>
+        </section>
+
+        <section class="description-section">
+            <h1>Remove Image <br> Background</h1>
+            <h3>100% Automatically and Free</h3>
+        </section>
+    </main>
+</body>
+</html>
